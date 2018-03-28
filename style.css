@@ -1,0 +1,108 @@
+/* le style de votre projet */
+
+body {
+	margin : 0;
+	font-family: verdana, sans-sérif;
+	font-size: 11pt;
+	background-color: #01202b;
+	background-image: url(images/body_background.png);
+	background-repeat: repeat-y;
+	background-position: top;
+}
+#wrapper {
+	width: 800px;
+	height: 600px;
+	background-color: #515b69;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: -300px;
+}
+
+#header {
+	/*border : 1px solid #f00;*/
+	height: 74px;
+	background-image: url(images/header.png)
+}
+
+#menu-top {
+	height: 42px;
+	background-image: url(images/menu_top.png)
+
+}
+
+#menu-sup {
+	/*border: 1px solid #0f0;*/
+	margin: 0;
+	line-height: px;
+	padding-left: 175px;
+	font-size: 0.8em;
+	position: relative;
+	top: 12px;
+}
+#menu-sup li  {
+	display: inline-block;
+	margin: 0px  10px;
+	text-decoration : none;
+	border-left: 1px solid #c0d3e2;
+	padding-left: 8px;
+	color: #c0d3e2
+	text-transform: uppercase;
+}
+
+#menu-sup li:last-child{
+	border-right: 1px solid #c0d3e2;
+	padding-right: 8px;
+}
+	#menu-sup li a{
+		text-decoration: none;
+		color: #c0d3e2;
+		text-transform: uppercase;
+	}
+
+#menu-sup li a:hover {
+	color: #e5f9ff
+  }
+
+#deco-fire {
+	height: 54px;
+	background-image: url(images/fire_decoration.png)
+}
+
+#colonne-gauche {
+	width: 151px;
+	height : 430px;
+	background-color : #abb6c6;
+	float: left;
+}
+#colonne-gauche a{
+	display: block;
+	/*border: 1px solid #fff;*/
+	width: 150px;
+	height: 34px;
+	text-align: center;
+	background-image: url(images/button_background_off.png);
+	text-decoration: none;
+	color: #566578;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.8em;
+	line-height: 34px; /*centrer le textev verticalement*/
+}
+#colonne-gauche a:hover{
+	background-image: url(images/button_background_hover.png);
+	color: #e5f9ff;
+}
+
+/* astuce pour mettre une image en bouton */
+
+#zone-texte {
+	width: 600px;
+	height: 500px;
+	/* border: 1px solid #f00; */
+	 float: left;
+	 color: #fff;
+	 padding: 0px 1em;
+}
+
